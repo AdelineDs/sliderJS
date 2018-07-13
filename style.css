@@ -1,0 +1,40 @@
+* {
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+.intercontinentale{
+    position: relative;
+}
+
+.slideElement{
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    opacity:0;
+}
+.slideElement img{
+    max-width: 800px;
+    height: auto;
+    max-height: 500px;
+}
+
+.visible{
+    visibility: visible;
+    -webkit-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+    position: absolute;
+    top: 0;
+    opacity:1
+}
+
+figcaption {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
